@@ -1,0 +1,459 @@
+/* Body Styling*/
+body{
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    background-color: #0c1027;
+}
+
+/* Main Navbar Styling*/
+#main-nav{
+    position: fixed;
+    background-color:#0c1027;
+    width: 100vw;
+    padding: 15px 50px;
+    z-index: 2;
+}
+
+#music-player-icon{
+    display: inline-block;
+    width: 10vw;
+    position: relative;
+    margin-left: 5vw;
+}
+
+#music-player-icon img{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+}
+
+#mp-title{
+    position: absolute;
+    top: 10%;
+    margin-left: 1vw;
+    font-size: 1.4vw;
+    font-family: sans-serif;
+    color: white;
+}
+
+#favourites{
+    position: relative;
+    bottom: 1.5vw;
+    margin-left: 5vw;
+    display: inline-block;
+    color: white;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+}
+
+#search-notification{
+    display: inline-block;
+    position: absolute;
+    left: 63vw;
+    height: 60%;
+    width: 30%;
+    padding: 10px;
+    margin-top: 0.4vw;
+}
+
+#search input{
+    background: white;
+    border: none;
+    opacity: 0.2;
+    width: 15vw;
+    height: 1.8vw;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#notification{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    right: 10vw;
+    top: 1.3vw;
+}
+
+.fa-bell{
+    transform: scale(2.1);
+    cursor: pointer;
+}
+
+#user-profile{
+    position: absolute;
+    right: 4vw;
+    top: 0.7vw;
+    cursor: pointer;
+}
+
+#user-profile img{
+    border-radius: 50%;
+    height: 2vw;
+    width: 2vw;
+}
+
+/* Container Styling*/
+#container{
+    position: absolute;
+    left: 6vw;
+    top: 8vw;
+    display: flex;
+    justify-content: space-between;
+    width: 88vw;
+    height: 25vw;
+}
+
+#main-section{
+    width: 65vw;
+}
+
+.artist-card{
+    height: 20vw;
+    width: 100%;
+    display: flex;
+}
+
+.artist img{
+    height: 20vw;
+}
+
+.content{
+    padding: 2vw;
+}
+
+.content h1{
+    font-size: 1.8vw;
+}
+
+.content p{
+    color: #a1a4ac;
+    line-height: 1.5;
+}
+
+#heading{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading span{
+    position: absolute;
+    right: 1vw;
+    top: 2vw;
+}
+
+#button-container{
+    display: inline-block;
+    margin-top: 2.5vw;
+    width: 9.2vw;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 1.2vw;
+    height: 3vw;
+    margin-bottom: 0.4vw;
+    background:linear-gradient(110deg,#3123ae,#c94ae1);
+}
+
+#follow{
+    position: absolute;
+    top: 16.6vw;
+    left: 35vw;
+    font-size: 1.2vw;
+}
+
+/* Song List Styling*/
+#song-list{
+    margin-top: 2vw;
+    width: 65vw;
+    position: relative;
+}
+
+.song-card{
+    margin: 1vw 0vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 4vw;
+    position: relative;
+}
+.song-card:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.song-card img{
+    height: 3.5vw;
+    position: absolute;
+    top: 0.25vw;
+    left: 3vw;
+}
+.number{
+    position: absolute;
+    top: 1.5vw;
+    left: 0.5vw;
+}
+.song-card h3{
+    position: absolute;
+    left: 9vw;
+}
+.artist-name{
+    position: absolute;
+    color: #cdd1dd;
+    top: 2.5vw;
+    left: 9vw;
+}
+.time{
+    position: absolute;
+    top: 1.5vw;
+    left: 38vw;
+}
+#card-icons{
+    height: 4vw;
+    width: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 3vw;
+}
+#card-icons i{
+    transform: scale(1.5);
+}
+
+/* Aside Section Styling*/
+#aside-section{
+    position: relative;
+    margin-left: 1vw;
+    width: 27vw;
+}
+
+/* Aside Section 1 Styling*/
+#aside-section1 h3{
+    font-size: 1.2vw;
+}
+
+#aside-section1>span{
+    position: absolute;
+    top: 1.5vw;
+    right: 1vw;
+}
+
+.card-1{
+    margin: 1vw 0vw;
+    position: relative;
+    height: 5vw;
+}
+
+.card-1:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-1 img{
+    height: 5vw;
+}
+
+.trackname1{
+    position: absolute;
+    top: 1vw;
+    left: 6vw;
+    font-size: 1vw;
+}
+
+.artistname1{
+    position: absolute;
+    top: 2.5vw;
+    left: 6vw;
+    font-size: 0.8vw;
+}
+
+.card-1 .playtime{
+    position: absolute;
+    top: 2vw;
+    right: 1vw;
+}
+
+.card-1 .fa-ellipsis-v{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0.5vw;
+    right: 1.8vw;
+}
+
+/* Aside Section 2 Styling*/
+#aside-section2{
+    position: relative;
+    margin-top: 3.6vw;
+}
+
+#aside-section2>span{
+    position: absolute;
+    top: 0.2vw;
+    right: 1vw;
+}
+
+#aside-section2 h3{
+    font-size: 1.2vw;
+}
+
+.card-2{
+    margin: 1vw 0vw;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 4vw;
+}
+
+.card-2:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-2 img{
+    height: 4vw;
+    position: absolute;
+    left: 2vw;
+}
+
+.num1{
+    position: absolute;
+    top: 1.5vw;
+    left: 0.5vw;
+}
+
+.trackname2{
+    position: absolute;
+    top: 1vw;
+    left: 7vw;
+    font-size: 1vw;
+}
+
+.artistname2{
+    position: absolute;
+    top: 2.2vw;
+    left: 7vw;
+    font-size: 0.8vw;
+}
+
+.card-2 .fa-heart{
+    position: absolute;
+    top: 1.5vw;
+    right: 1vw;
+    transform: scale(1.5);
+}
+
+/* Bottom Music Player Styling*/
+#bottom-music-player{
+    background-color: #282828;
+    height: 4vw;
+    width: 100vw;
+    position: fixed;
+    bottom: 0vw;
+}
+
+#now-playing{
+    padding: 5px;
+    margin-left: 10vw;
+    height: 4vw;
+    width: 20vw;
+}
+
+#now-playing img{
+    height: 3.5vw;
+}
+
+#track-name{
+    position: absolute;
+    top: 1vw;
+    margin-left: 1vw;
+    font-size: 1vw;
+}
+
+#artist-name{
+    position: absolute;
+    top: 2.5vw;
+    margin-left: 1vw;
+    font-size: 0.8vw;
+}
+
+#like{
+    position: absolute;
+    left: 23vw;
+    top: 1vw;
+    transform: scale(1.5);
+}
+
+#actions{
+    height: 4vw;
+    width: 35vw;
+    position: absolute;
+    left: 33vw;
+    bottom: 0vw;
+}
+
+#actions input{
+    position: absolute;
+    top: 2.5vw;
+    left: 3.5vw;
+    width: 80%;
+}
+#start{
+    font-size: 0.8vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 1vw;
+}
+#end{
+    font-size: 0.8vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 32.5vw;
+}
+
+#action-buttons{
+    position: absolute;
+    left: 7vw;
+    height: 3vw;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#action-buttons span{
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+}
+
+#volume{
+    position: absolute;
+    right: 5vw;
+    bottom: 0vw;
+    height: 4vw;
+    width: 20vw;
+}
+
+#volume input{
+    position: absolute;
+    top: 1.5vw;
+    left: 7vw;
+    width: 40%;
+}
+
+#volume span{
+    font-size: 1vw;
+}
+#i1{
+    top: 1.4vw;
+    position: absolute;
+    left: 1vw;
+}
+#i2{
+    top: 1.4vw;
+    position: absolute;
+    left: 4vw;
+}
+#i3{
+    top: 1.4vw;
+    position: absolute;
+    left: 17vw;
+}
+
